@@ -1,0 +1,12 @@
+---
+all:
+  children:
+    test:
+      hosts:
+        fnalg-tv-bas01.finance.lab:
+    windows:
+      hosts:
+        fnalg-tv-bas01.finance.lab:
+    ve_admin:
+      hosts:
+        fnalg-tv-bas01.finance.lab:

@@ -1,0 +1,6 @@
+---
+- hosts: ve_admin
+  tasks:
+    - name: test voor test_goups_var
+      debug:
+        var: test_goups_var
