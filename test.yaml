@@ -2,6 +2,10 @@
 - hosts: ve_admin
   gather_facts: no
   tasks:
-    - name: test voor test_goups_var
+    - name: test voor test_goups_var_inv
       debug:
-        var: test_goups_var
+        var: test_goups_var_inv
+
+    - name: test voor test_goups_var_playbook
+      debug:
+        var: test_goups_var_playbook
